@@ -1,0 +1,278 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  height: 500px;
+  
+  /* Center and scale the image nicely */
+ 
+  
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav-right {
+  
+  color: black;
+  float: right;
+  padding-left: 550px;
+  padding-top: 0px;
+}
+
+
+.topnav-left{
+ padding-top: 30px;
+ padding-left: 20px;
+  float: left;
+ text-decoration: none;
+}
+.topnav-left a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar links */
+.topnav-right a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 5px;
+}
+  #Post{
+          margin-right: 10px;
+          background-color: #638ED6;
+          border-radius: 10px;
+          color: white;
+          text-decoration:none; 
+
+      }
+  #Want{
+          margin-right: 20px;
+          background-color: #f50;
+          border-radius: 10px;
+          color: white;
+          text-decoration:none;
+      }
+      .bottomn-nav-left{
+
+        padding-top: 300px;
+        padding-left: 50px;
+        text-decoration: none;
+      }
+      .div-left{
+        padding-top: 40px;
+        padding-left: 20px;
+        background-color: #F8F6F6;
+        margin-left: 200px;
+        margin-right: 450px;
+        margin-top: 20px;
+        margin-bottom: 200px; 
+      }
+       .div-right{
+        padding-top: 50px;
+        padding-right: : 20px;
+        padding-left: 10px;
+        background-color:#F8F6F6;
+        margin-right : 20px;
+        margin-left :1000px;
+        margin-top: -1112px;
+        margin-bottom: 20px; 
+      }
+       .div-bottom{
+        padding-top: 50px;
+       
+        padding-left: 10px;
+        background-color:#638ED6;
+        margin-right : 10px;
+        margin-left :10px;
+        margin-top: 300px;
+        margin-bottom: 0px;;
+      }
+    
+      input[type=text], select {
+      width: 90%;
+      padding: 12px 20px;
+      margin: 0px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    textarea{
+      width: 90%;
+      padding: 12px 20px;
+      margin: 0px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+
+    }
+    .button {
+  background-color:#638ED6; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+ .button1 {
+  background-color:#f50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#i1{
+
+      width: 70%;
+      padding: 12px 20px;
+      margin: 0px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+
+    
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav-right">
+
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Candidates</a>
+      <a href="">Blog</a>
+      <a href="">Contacts</a>
+      <a href="" style="color: white" id="Post">Post a Job</a>
+      <a href="" style="color: white" id="Want">Want a Job</a>
+
+    </div>
+
+    
+  </div>
+    <div class="topnav-left">
+      <a href=""><b>JobApply<b></a>
+    </div>
+
+    <div class="bottomn-nav-left">
+      <p>Home <b><i class="fa fa-angle-right"></i></b>New Job Post</p>
+      <h1><b>Post A Job</b></h1>
+    </div>
+
+
+</div>
+<div class="div-left">
+  
+
+<input type="checkbox" name=""><span style="color: green">$500 </span><span style="color: gray"> For 30 days</span><br><br>
+<input type="checkbox" name=""><span style="color: green">$300 </span><span style="color: gray"> /Monthly Recurring</span>
+<br><br>
+<h4><span style="color: gray"> Job Title</span></h4>
+<input type="text" name="text" placeholder="eg.Professional UI/UX Designer">
+<br><br>
+<h4><span style="color: gray"> Company</span></h4>
+<input type="text" name="text" placeholder="eg.Facebook.Inc.">
+<br><br>
+<font size="5px">Job Type</font><br><br>
+<label class="con">
+  <input type="radio" name="Job" value="ft"><span style="color: gray"> Full Time</span><br>
+  <input type="radio" name="Job" value="pt"><span style="color: gray"> Part Time</span><br>
+  <input type="radio" name="Job" value="fr"><span style="color: gray"> Freelancer</span><br>
+  <input type="radio" name="Job" value="In"><span style="color: gray"> Internship</span><br>
+  <input type="radio" name="Job" value="te"><span style="color: gray"> Temporary</span><br>
+</label>
+<br><br>
+  <font size="5px">Location</font><br><br>
+  <input type="text" name="text" placeholder="eg.Western City,UK"><br><br>
+
+  <font size="5px">Job Description</font><br><br>
+  <textarea rows="5" cols="50">
+  </textarea><br><br>
+  <button class="button">Post</button>
+  <br>
+ <br>
+ </div>
+
+
+   <div class="div-right">
+   <font size="5px">Contact Info</font>
+   <p><span style="color: grey"><b>Address</b></span></p>
+   <p><span style="color: darkgrey"> 203,Fake St.Mountain View,San Francisco,California,USA</span></p>
+   <br>
+   <p><span style="color: grey"><b>Phone</b></span></p>
+   <p><span style="color: blue">+1 232 3235 324</span></p>
+
+   <p><span style="color: grey"><b>Email Address</b></span></p>
+   <p><span style="color: blue">bisenrajat.21@gmail.com</span></p>
+   <br>
+   <br>
+   <br>
+   <font size="5px">More Info</font>
+   <p><span style="color: gray">Lorem ipsum vfnsdvfbhcsdc jsdvchdcvhvdshcvc
+   echdjskcdjcbsuvchwdvjodibvdsv
+  jofasfcfdshfidsh fisfhsjf jh lshflaskfashfsiafsa</span></p>
+  <button class="button">Learn More</button>
+  <br>
+  <br>
+  </div>
+  <div class="div-bottom">
+    <center>
+      <font size="5px" color="white">Subscribe to our NewsLetter</font>
+        <font color="white"><p>Far far away,behind the word mountains,far from countries vokalia and consonantia,there lives the blind text.<br>Seperated they live in ,fill the email address</p></font>
+        <input type="text" id="i1" name="email" placeholder="emailID">
+        <button class="button1">Subscribe</button>
+
+    </center>
+    
+    <br>
+    <br>
+
+
+  </div>
+
+  
+</div>
+
+</body>
+</html>
